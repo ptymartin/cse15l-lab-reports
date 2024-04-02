@@ -2,8 +2,8 @@
 *Hello World!*
 **Hello World! but bold**
 ## More Hello Worlds:
-[https://ptymartin.github.io/cse15l-lab-reports/] 
-![https://ptymartin.github.io/cse15l-lab-reports/]
+[Link 1](https://ptymartin.github.io/cse15l-lab-reports/)
+![Image Link 2](https://ptymartin.github.io/cse15l-lab-reports/)
 > * 1
 > * 2
 > * 3
