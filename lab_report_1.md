@@ -14,11 +14,11 @@ The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lectur
 # ls Command:
 1. no arguments
 ![Image](ls_noArgs.png)
-
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. The output is a printed list of the names of the contents of the folder `lecture1` as they appear in the folder. Because no argument is given, the default directory to list items out of is the current working directory when the command is issued. The fact that the contents of `lecture1` are successfully printed means that no errors were present.
 
 2. path to directory
 ![image](ls_directory.png)
-
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. The output is again a printed list of names of contents of a folder, however this time it is the contents of the folder `messages`, the directory given as the argument. Again the fact that the contents are printed indicates that the command ran correctly with no errors. An important thing to note is that the working directory was not changed after the contents of `messages` were listed. 
 
 3. path to file
 ![image](ls_file.png)
