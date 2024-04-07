@@ -1,5 +1,4 @@
 # Lab Report 1
----
 ## `cd` Command:
 1. no arguments
 ![Image](cd_noArgs.png)
