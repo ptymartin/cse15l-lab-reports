@@ -22,17 +22,17 @@ The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lectur
 
 3. path to file
 ![image](ls_file.png)
-
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. The output is simply the name of the file passed as the argument to the command. This output is not an error because the only file in the given path would be `Hello.java`, as this is not a directory and therefore cannot contain any other files. Again the filepath is not changed after the command is run.
 
 # cat Command:
 1. no arguments
 ![Image](cat_noArgs.png)
-
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. Without an argument, it seems that the command does not terminate until something else is performed. I do not believe this is an error, rather just an awaiting of input. I'm not exactly sure what input it would be expecting but my guess would be files that would be used as if they were passed as arguments.
 
 2. path to directory
 ![image](cat_directory.png)
-
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. With a directory passed as an argument, the output gives an error saying that the argument `messages` was in fact a directory instead of a file. This behavior makes sense because `cat` is meant to print the contents of a file, and if it were to do the same with directories, it would simply fill the roll of the command `ls` as well.
 
 3. path to file
 ![image](cat_file.png)
-Test Spacing
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. The output is the exact contents of the file, formatted similarly. This output is not an error, as this is exactly what the command is intended to do. Because the full name of the command is "concatenate", I assume the command can be used to somehow print the joining of contents of multiple files in some way.
