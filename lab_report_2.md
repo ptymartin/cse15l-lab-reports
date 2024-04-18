@@ -31,3 +31,10 @@ class ChatHandler implements URLHandler {
     }
 ```
 
+![add_message1](add_message1.png)
+The first method called by this is the ```handleRequest``` method in the ```ChatHandler``` class. 
+
+
+![add_message2](add_message2.png)
+
+
