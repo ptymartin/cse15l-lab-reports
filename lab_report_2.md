@@ -32,7 +32,7 @@ class ChatHandler implements URLHandler {
 ```
 
 ![add_message1](add_message1.png)
-The first method called by this is the ```handleRequest``` method in the ```ChatHandler``` class. 
+The first method called by this is ```handleRequest()``` in the ```ChatHandler``` class. This then calls ```url.getPath().contains()```, ```url.getQuery().split()``` and ```parameters[1].split()```. Finally the string is added and the output is formatted with ```String.format()```. The relevant argument for ```handleRequest()``` is the url. The relevant argument for ```url.getPath().contains()``` is ```"/add-message"```. The relevant arguments for ```url.getQuery().split()``` and ```parameters[1].split()``` are ```"="``` and ```"&"``` respectively. For ```String.format()```, ```parameters[2]``` and ```splitParams[0]``` are the outputs that get formatted and concatenated.
 
 
 ![add_message2](add_message2.png)
