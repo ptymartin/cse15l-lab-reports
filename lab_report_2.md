@@ -1,3 +1,7 @@
+# Lab Report 2
+
+## Part 1
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -38,3 +42,16 @@ The first method called by this is ```handleRequest()``` in the ```ChatHandler``
 ![add_message2](add_message2.png)
 The methods called for this url are very similar to the previous. The first method called is ```handleRequest()``` in the ```ChatHandler``` class. Then ```url.getPath().contains()```, ```url.getQuery().split()``` and ```parameters[1].split()```. The string is added and the output is formatted with ```String.format()```. The relevant argument for ```handleRequest()``` is the url ```http://localhost:4567/add-message?s=Hola&user=someoneelse```. The relevant argument for ```url.getPath().contains()``` is ```"/add-message"```. The relevant arguments for ```url.getQuery().split()``` and ```parameters[1].split()``` are ```"="``` and ```"&"``` respectively. For ```String.format()```, ```parameters[2]``` and ```splitParams[0]``` are the outputs that get formatted and concatenated to the class field ```s```. The concatenation adds "someoneelse" and "Hola", again with a colon in between along with the newline character at the end, to the string ```s```, which now contains "jpolitz : Hello \n".
 
+---
+
+## Part 2
+
+![private key absolute](local_private_key.png)
+
+![ieng6 public key](ieng6_public_key.png)
+
+![ieng6 login no password](ieng6_login.png)
+
+---
+
+## Part 3
