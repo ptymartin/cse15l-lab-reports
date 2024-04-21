@@ -59,4 +59,4 @@ The methods called for this url are very similar to the previous. The first meth
 ---
 
 ## Part 3
-Lab 2 really taught me how simple reading and handling URLs can be and how easy simple websites can be made. 
+Lab 2 taught me how simple reading and handling URLs can be and how easy simple websites can be made. I also learned that websites can be accessed and viewed through terminal commands fairly easily.
