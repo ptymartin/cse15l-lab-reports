@@ -2,7 +2,7 @@
 ## `cd` Command:
 1. no arguments
 ![Image](cd_noArgs.png)
-The absolute path when the program was run was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. There is nothing output when the command has no arguments, which means the directory was changed successfully and no errors occurred. When not given a target directory, it seems that /Users/ptymartian is the directory that is defaulted. I assume the reason for having such a system is to quickly and reliably have a way to reset when in a very nested directory.
+The absolute path when the program was run was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. There is nothing output when the command has no arguments, which means the directory was changed successfully and no errors occurred. When not given a target directory, it seems that the home directory `/Users/ptymartian` is the directory that is defaulted. I assume the reason for having such a system is to quickly and reliably have a way to reset when in a very nested directory.
 
 2. path to directory
 ![image](cd_directory.png)
@@ -28,7 +28,7 @@ The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lectur
 ## `cat` Command:
 1. no arguments
 ![Image](cat_noArgs.png)
-The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. Without an argument, it seems that the command does not terminate until something else is performed. I do not believe this is an error, rather just an awaiting of input. I'm not exactly sure what input it would be expecting but my guess would be files that would be used as if they were passed as arguments.
+The absolute path was `/Users/ptymartian/Desktop/UCSD/Spring 2024/CSE 15L/lecture1`. Without an argument, it seems that the command does not terminate until something else is performed. I do not believe this is an error, rather just an awaiting of input. I'm not exactly sure what input it would be expecting but my guess would be files that would be used as if they were passed as arguments. When anything is typed in while the command is running, it is repeated. It looks like the same thing echo does.
 
 2. path to directory
 ![image](cat_directory.png)
