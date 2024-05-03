@@ -56,3 +56,18 @@ static void reverseInPlace(int[] arr) {
 ```
 
 The issue with the original method was trying to reverse the array without storing the values of the original array. This means that when a value is written over, the original can no longer be placed in its correct place. The fixed code creates an empty array of the same size, and then reverses the values by copying in reverse order to the new array, which allows for all the original values to be kept.
+
+---
+## Part 2 - Researching commands
+Command: `grep`
+
+Option 1: `-c`
+![Count example 1](grep-c1.png)
+
+![Count example 2](grep-c2.png)
+
+Option 2: `-i`
+
+![Case insensitive example 1](grep-i1.png)
+
+![Case insensitive example 2](grep-i2.png)
