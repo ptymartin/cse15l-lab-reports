@@ -61,28 +61,37 @@ The issue with the original method was trying to reverse the array without stori
 ## Part 2 - Researching commands
 Command: `grep`
 
-Option 1: `-c`
+### Option 1: `-c`
 ![Count example 1](grep-c1.png)
+Returns the count of how many times the pattern "option" appears in each `.txt` file in `technical/911report` next to the relative path of the file.
+
 
 ![Count example 2](grep-c2.png)
+Returns the count of how many times the pattern "other" appears in each `.txt` file in `technical/government/About_LSC` next to the relative path of the file.
 
-Option 2: `-i`
+
+### Option 2: `-i`
 
 ![Case insensitive example 1](grep-i1.png)
+Returns the lines of text containing the case-insensitive pattern "integrated" in each `.txt` file in `technical/911report` next to the relative path of the file.
 
 ![Case insensitive example 2](grep-i2.png)
+Returns the lines of text containing the case-insensitive pattern "comprehensive" in `government/About_LSC/CONFIG_STANDARDS.txt`.
 
-Option 3: `-l`
+### Option 3: `-l`
 
 ![File names example 1](grep-l1.png)
+Returns the relative paths of the `.txt` files containing the pattern "options" at least one time in `technical/911report`
 
 ![File names example 2](grep-l2.png)
+Returns the relative paths of the `.txt` files containing the pattern "other" at least one time in `technical/government/About_LSC`
 
-Option 4: `-m`
+### Option 4: `-m`
 
 ![Stop early example 1](grep-m1.png)
+Returns the lines of the first n matches of the pattern "options" in all the `.txt` files in `technical/911report` next to the file's relative path. In this case, n is specified to be 1.
 
 ![Stop early example 2](grep-m2.png)
-
+Returns the lines of the first n matches of the pattern "other" in all the `.txt` files in `government/About_LSC` next to the file's relative path. In this case, n is specified to be 1.
 
 All options were found using the integrated `man` command
