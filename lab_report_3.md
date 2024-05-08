@@ -71,3 +71,15 @@ Option 2: `-i`
 ![Case insensitive example 1](grep-i1.png)
 
 ![Case insensitive example 2](grep-i2.png)
+
+Option 3: `-l`
+
+![File names example 1](grep-l1.png)
+
+![File names example 2](grep-l2.png)
+
+Option 4: `-m`
+
+![Stop early example 1](grep-m1.png)
+
+![Stop early example 2](grep-m2.png)
