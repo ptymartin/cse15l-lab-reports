@@ -83,3 +83,6 @@ Option 4: `-m`
 ![Stop early example 1](grep-m1.png)
 
 ![Stop early example 2](grep-m2.png)
+
+
+All options were found using the integrated `man` command
