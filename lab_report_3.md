@@ -92,6 +92,28 @@ Returns the relative paths of the `.txt` files containing the pattern "other" at
 Returns the lines of the first n matches of the pattern "options" in all the `.txt` files in `technical/911report` next to the file's relative path. In this case, n is specified to be 1.
 
 ![Stop early example 2](grep-m2.png)
+
+```
+grep --color -m 1 "other" government/About__SC/*.txt
+government/About_LSC/CONFIG_STANDARDS.txt:and territory to work with one another and with a broad spectrum of
+government/About_LSC/Comments_on_semiannual.txt:providing models and inspiration for others. All 18 states improved
+government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:involve an effort to amend or otherwise challenge existing law in
+government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:funds and other public or private sources. The grantee
+government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt:in an effort to amend or otherwise challenge existing welfare law.
+government/About_LSC/ODonnell_et_al_v_LSCdecision.txt:*We note that three other circuits have concluded that rational
+government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:people who could not otherwise afford legal aid. As did many of you
+government/About_LSC/Progress_report.txt:me it demonstrates another very important point. It shows that a
+government/About_LSC/Protocol_Regarding_Access.txt:any of LSC's rights to documents and other information and does not
+government/About_LSC/Special_report_to_congress.txt:quality legal assistance to those who would otherwise be unable to
+government/About_LSC/State_Planning_Report.txt:services delivery system, created in another time and place, didn't
+government/About_LSC/State_Planning_Special_Report.txt:legal assistance to those who would otherwise be unable
+government/About_LSC/Strategic_report.txt:in this great country, we began to focus on other initiatives that
+government/About_LSC/commission_report.txt:housing, transportation and other employment rights under the
+government/About_LSC/conference_highlights.txt:sharing how programs can build bridges with other equal justice
+government/About_LSC/diversity_priorities.txt:Focusing on broad aspects of diversity - including, among others,
+government/About_LSC/reporting_system.txt:that they work cooperatively with other groups to address the needs
+```
+
 Returns the lines of the first n matches of the pattern "other" in all the `.txt` files in `government/About_LSC` next to the file's relative path. In this case, n is specified to be 1.
 
 All options were found using the integrated `man` command
