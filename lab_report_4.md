@@ -16,5 +16,13 @@
 **Image:**
 
 ## Step 7:
-**Input:** `
+**Input:** `vim<space>ListExamples.java<enter>:44<enter>exi2<esc>:wq<enter>`
+**Image:**
+
+## Step 8:
+**Input:** `<up><up><enter>`
+**Image:**
+
+## Step 9:
+**Input:**`git<space>add<space>.<enter>git<space>commit<space>-m<space>"Fixed<space>Code"<enter>git<space>push<enter>`
 **Image:**
