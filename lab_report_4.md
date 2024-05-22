@@ -45,7 +45,7 @@
 
 ## Step 9:
 
-**Input:**`git<space>add<space>.<enter>git<space>commit<space>-m<space>"Fixed<space>Code"<enter>git<space>push<enter>`
+**Input:** `git<space>add<space>.<enter>git<space>commit<space>-m<space>"Fixed<space>Code"<enter>git<space>push<enter>`
 
 **Image:** ![Step 9](step-9.png)
 
